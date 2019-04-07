@@ -12,7 +12,7 @@ class CylinderTest {
         int height = 0;
         double expected = 0;
 
-        double result = Cylinder.getVolume(radius, height);
+        double result = Cylinder.getFullArea(radius, height);
         assertEquals(expected, result);
     }
 
@@ -23,7 +23,7 @@ class CylinderTest {
         int height = 2;
         double expected = 18.84955592153876;
 
-        double result = Cylinder.getVolume(radius, height);
+        double result = Cylinder.getFullArea(radius, height);
         assertEquals(expected, result);
     }
 }
